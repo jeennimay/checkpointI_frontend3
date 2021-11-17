@@ -1,0 +1,21 @@
+section.main-projetos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #303030;
+    padding: 2rem;
+    gap: 2rem;
+    overflow: auto;
+
+    &::-webkit-scrollbar{
+        height: 0.3rem;
+        width: 10px;
+        background-color: #5F3081;
+        /* display: none; */
+    
+        &:hover{
+            background-color: #EBCE56;
+        }
+    }
+    
+}

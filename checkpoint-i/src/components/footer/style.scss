@@ -1,0 +1,24 @@
+footer {
+    width: 100%;
+    background-color: #391852;
+    padding: 1rem;
+
+
+    section.footer-redes{
+        display: flex;
+        justify-content: center;
+        
+        a{
+            margin: 1rem;
+            i{
+                color: #f9f9f9;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    p{
+        text-align: center;
+        font-size: 1rem;
+    }
+}

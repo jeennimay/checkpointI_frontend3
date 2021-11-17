@@ -1,0 +1,57 @@
+section.main-bio{
+    background-color: #391852;
+    width: 100%;
+    padding: 3rem;
+
+
+    div.bio{
+        font-family: Dosis;
+        font-style: normal;
+        color: #F9F9F9;
+
+        background: #391852;
+        box-shadow: -15px -30px 80px rgba(0, 0, 0, 0.3), 15px 30px 80px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 1.5rem;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+
+        div.bio-texto{
+            align-self: center;
+
+            h1{
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 46px;
+                text-indent: 24px;
+                margin-bottom: 2rem;
+            }
+            
+            p{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 30px;
+                text-align: justify;
+                text-indent: 24px;
+    
+                span{
+                    color: #EBCE56;
+                }
+            }
+        }
+        
+        
+    }
+}
+
+@media (min-width: 768px) {
+    section.main-bio{
+        div.bio{
+            flex-wrap: nowrap;
+        }
+    }
+    
+}
